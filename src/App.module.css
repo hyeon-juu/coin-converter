@@ -1,0 +1,80 @@
+/* #E9BD50 */
+body {
+  background-color: #85bdf3;
+}
+.container {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  background-color: #85bdf3;
+  font-size: 20px;
+  outline: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 400px;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  border-bottom: 1px solid black;
+}
+select::-webkit-scrollbar-thumb {
+  background-color: #d6e7f3; /* 스크롤바 색상 */
+  border-radius: 20px;
+}
+select::-webkit-scrollbar {
+  color: #85bdf3;
+}
+
+.firstBox,
+.secondBox {
+  display: flex;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 5px;
+  width: 400px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d6e7f3;
+  font-weight: 600;
+  font-size: 20px;
+}
+.firstBox input {
+  background-color: #d6e7f3;
+  padding: 10px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.firstBox input:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.secondBox > div {
+  padding-left: 10px;
+  /* font-size: 20px;
+  font-weight: 600; */
+}
+.nav > span {
+  font-size: 50px;
+  margin-top: 100px;
+}
