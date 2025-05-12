@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/coin-converter/static/css/main.06074012.css",
-    "main.js": "/coin-converter/static/js/main.e4102fcf.js",
+    "main.js": "/coin-converter/static/js/main.5329430f.js",
     "index.html": "/coin-converter/index.html",
     "main.06074012.css.map": "/coin-converter/static/css/main.06074012.css.map",
-    "main.e4102fcf.js.map": "/coin-converter/static/js/main.e4102fcf.js.map"
+    "main.5329430f.js.map": "/coin-converter/static/js/main.5329430f.js.map"
   },
   "entrypoints": [
     "static/css/main.06074012.css",
-    "static/js/main.e4102fcf.js"
+    "static/js/main.5329430f.js"
   ]
 }
