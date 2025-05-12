@@ -48,19 +48,18 @@ function App() {
               value={usd}
               onChange={(event) => setUsd(event.target.value)}
             />
-            <div>USD</div>
+            <div className={style.symbol}>USD</div>
           </div>
 
           <div className={style.secondBox}>
             {coinSelect && usd >= 0 ? (
-              <div>
-                {(usd / coinSelect.quotes.USD.price).toFixed(6)}{" "}
-                {coinSelect.symbol}
-              </div>
+              <div>{(usd / coinSelect.quotes.USD.price).toFixed(6)} </div>
             ) : (
               <div>0</div>
             )}
-            <div>{coinSelect ? coinSelect.symbol : ""}</div>
+            <div className={style.symbol}>
+              {coinSelect ? coinSelect.symbol : ""}
+            </div>
           </div>
         </div>
       )}
