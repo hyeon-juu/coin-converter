@@ -13,6 +13,7 @@ function App() {
       .then((response) => response.json())
       .then((json) => {
         setCoins(json);
+        setCoinId(json[0]?.id || "");
         setLoading(false);
       });
   }, []);
@@ -28,7 +29,6 @@ function App() {
           onChange={(event) => setCoinId(event.target.value)}
           value={coinId}
         >
-          {/* <option value="">Which coin do you want to buy?</option> */}
           {coins.map((item) => (
             <option key={item.id} value={item.id}>
               {item.name}
